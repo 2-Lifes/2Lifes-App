@@ -1,0 +1,52 @@
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "geometry": {
+                "location": {
+                    "lat": 23.8071625,
+                    "lng": 90.3672608
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 23.80836617989272,
+                        "lng": 90.36864812989272
+                    },
+                    "southwest": {
+                        "lat": 23.80566652010728,
+                        "lng": 90.36594847010727
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/civic_building-71.png",
+            "id": "09d41e6d2be86705652bcb1176e1e406b9e859fd",
+            "name": "Fire Service And Civil Defence Station Mirpur",
+            "photos": [
+                {
+                    "height": 3456,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/104875881283816617810\">Fardeen Ahmed</a>"
+                    ],
+                    "photo_reference": "CmRZAAAAK9XwxfTE0H9rld1G07r3gyO6wJUONJOMZuifgTOyg6s6Qj9b4xJbrx2BRbBUGS1iUj8KRC6b-KakwlVmG4YjRaQLmkzUfXnWBCBedCtD-SpjmCSsZm8Z7wJZL33v00f7EhD87e2VGhD8d90UCIIqbxJJGhQNj08OBviMkCan8ABOI2BwQmlmKg",
+                    "width": 4608
+                }
+            ],
+            "place_id": "ChIJKSMH1dfBVTcR9xq3rgRE_CU",
+            "plus_code": {
+                "compound_code": "R948+VW Dhaka",
+                "global_code": "7MMGR948+VW"
+            },
+            "rating": 4.5,
+            "reference": "ChIJKSMH1dfBVTcR9xq3rgRE_CU",
+            "scope": "GOOGLE",
+            "types": [
+                "fire_station",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2,
+            "vicinity": "Mirpur Rd, Dhaka"
+        }
+    ],
+    "status": "OK"
+}

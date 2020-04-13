@@ -1,0 +1,180 @@
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "geometry": {
+                "location": {
+                    "lat": 23.801255,
+                    "lng": 90.3814936
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 23.80265707989273,
+                        "lng": 90.38297157989271
+                    },
+                    "southwest": {
+                        "lat": 23.79995742010728,
+                        "lng": 90.38027192010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/civic_building-71.png",
+            "id": "7b2d7c1b3548ef15f29881b6b5edecd123e5a6cd",
+            "name": "Kafrul Police Station",
+            "photos": [
+                {
+                    "height": 1836,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115734459074871703105\">Sajol Kumar Das</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA0neq9HMhbvVbcHnwrIQ3wEZlHX6E2EVHTSfzkLZAb_BQdKDCOdCbWT6P98VZ7rqk_ihBth80TLcZ_tnRYD-DMEwiS46Vuzx0npzBmos7HLUI2HBGViHhgcEDNy9ia-4mEhDciB2y_LfsYWfne16yEmzfGhQtUNaH1WUYY6nboGqWFJVye5S2xA",
+                    "width": 3264
+                }
+            ],
+            "place_id": "ChIJuer5Vi7HVTcRQnrsIJcG4_g",
+            "plus_code": {
+                "compound_code": "R92J+GH Dhaka",
+                "global_code": "7MMGR92J+GH"
+            },
+            "rating": 3.7,
+            "reference": "ChIJuer5Vi7HVTcRQnrsIJcG4_g",
+            "scope": "GOOGLE",
+            "types": [
+                "police",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 82,
+            "vicinity": "Near Police Staff College, Mirpur 14 Road, Dhaka"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 23.8043941,
+                    "lng": 90.3630292
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 23.80588207989273,
+                        "lng": 90.36428192989273
+                    },
+                    "southwest": {
+                        "lat": 23.80318242010728,
+                        "lng": 90.36158227010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/civic_building-71.png",
+            "id": "7696c3215da14a454184faae72eb107bed82b9ff",
+            "name": "Mirpur Model Police Station",
+            "photos": [
+                {
+                    "height": 1536,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102404769214802874337\">Young Traveller&#39;s</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAkJEPITx11XNkMK9UigZrCKTKx2BKZAXNP_cSOsdtJtwmR4BWulPh4zXGgnlbj2KXzLbLSjHSqHDeV3yGy__KnsftpMOMNf1UFBSS9KN8OlDEDJhkMIyJ1-bHIAidhfr0EhDUjSZmpDd15Lwj02pF8QjaGhSCrNw1nyCP9e9z-to_pQd3bBnyiA",
+                    "width": 2048
+                }
+            ],
+            "place_id": "ChIJzfIx1dvAVTcRJr5qXh30sqU",
+            "plus_code": {
+                "compound_code": "R937+Q6 Dhaka",
+                "global_code": "7MMGR937+Q6"
+            },
+            "rating": 4,
+            "reference": "ChIJzfIx1dvAVTcRJr5qXh30sqU",
+            "scope": "GOOGLE",
+            "types": [
+                "police",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 89,
+            "vicinity": "Mirpur Rd, Dhaka"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 23.8070883,
+                    "lng": 90.36863009999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 23.80845562989272,
+                        "lng": 90.37006312989271
+                    },
+                    "southwest": {
+                        "lat": 23.80575597010728,
+                        "lng": 90.36736347010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/civic_building-71.png",
+            "id": "fa2d7638a1e1cefb2f5711f63da1c2a30dc6e038",
+            "name": "Harun Mollah Traffic Police Control Room",
+            "photos": [
+                {
+                    "height": 2340,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107941145116495999431\">Watch To Learn</a>"
+                    ],
+                    "photo_reference": "CmRaAAAABqRTIU9WlEYgiBfmNTuIJsgLfELEc6avB2vdLTuwzAdgqaBoBBPUT9OTeJmTm0IbvhniH_u5P8OYfvuYVGEMjqXWW4LC1eBXtx-DkxCvu8adDO00etAPEZPbRn3JPXcAEhCmsrOq2fmlrFUem-Qb9-A2GhQ91_bgOzwwUTnX67pp8Y-ZFLd7iA",
+                    "width": 4160
+                }
+            ],
+            "place_id": "ChIJWV619tbAVTcR_A2FFi2vNB4",
+            "plus_code": {
+                "compound_code": "R949+RF Dhaka",
+                "global_code": "7MMGR949+RF"
+            },
+            "rating": 3.9,
+            "reference": "ChIJWV619tbAVTcR_A2FFi2vNB4",
+            "scope": "GOOGLE",
+            "types": [
+                "police",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 111,
+            "vicinity": "10, 1216 Mirpur 10 Roundabout, Dhaka"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 23.7941754,
+                    "lng": 90.3825772
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 23.79559067989273,
+                        "lng": 90.38393667989271
+                    },
+                    "southwest": {
+                        "lat": 23.79289102010728,
+                        "lng": 90.38123702010726
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/civic_building-71.png",
+            "id": "7a6e39d7628b16b722524d41f22d639a47e18b98",
+            "name": "Kafrul Police Outpost",
+            "place_id": "ChIJf80v6jDHVTcRae7s6NmeZUA",
+            "plus_code": {
+                "compound_code": "Q9VM+M2 Dhaka",
+                "global_code": "7MMGQ9VM+M2"
+            },
+            "rating": 3,
+            "reference": "ChIJf80v6jDHVTcRae7s6NmeZUA",
+            "scope": "GOOGLE",
+            "types": [
+                "police",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 6,
+            "vicinity": "Ibrahimpur Rd, Dhaka"
+        }
+    ],
+    "status": "OK"
+}

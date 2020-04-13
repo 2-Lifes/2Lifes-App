@@ -1,0 +1,106 @@
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "geometry": {
+                "location": {
+                    "lat": 23.7981572,
+                    "lng": 90.36438729999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 23.79951317989272,
+                        "lng": 90.36574687989271
+                    },
+                    "southwest": {
+                        "lat": 23.79681352010727,
+                        "lng": 90.36304722010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+            "id": "b2d77a1842e53e5983f3444f603a939a7c8c95c6",
+            "name": "রেমেডি ডায়াগনষ্টিক এন্ড জেনারেল হসপিটাল",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4048,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106049787447105338744\">tareq aziz Faysal</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA6FTLKjn3mAvPxb5HFr_049skRj-sIchEOJDFUaAHWWSyxSEPdiJeDtr92z1K5NXBJ8m9_ZymqK9FfjL09zrf4pzVeyVCpKnRf8_-DzUs8O0vSQDL0PPitFl2Skj09SlvEhD9v1R4SMvna6NyDBm4dhm0GhQyyb62qAZUn32GQEFgP4rGyIUybQ",
+                    "width": 3036
+                }
+            ],
+            "place_id": "ChIJk2N4ScXAVTcRZvBpL_Yx4aU",
+            "plus_code": {
+                "compound_code": "Q9X7+7Q Dhaka",
+                "global_code": "7MMGQ9X7+7Q"
+            },
+            "rating": 0,
+            "reference": "ChIJk2N4ScXAVTcRZvBpL_Yx4aU",
+            "scope": "GOOGLE",
+            "types": [
+                "hospital",
+                "health",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "750 Kamal Soroni Rd, Dhaka"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 23.8065207,
+                    "lng": 90.3674934
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 23.80781692989272,
+                        "lng": 90.36885737989272
+                    },
+                    "southwest": {
+                        "lat": 23.80511727010728,
+                        "lng": 90.36615772010727
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+            "id": "e7648525308beabc8c9caa55ab9a511ea0e1e925",
+            "name": "Galaxy Hospital",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3888,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/112479510487789518390\">Mridul islam</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAApb8nYhPuNZgxt_snTnu-rIgAoEGauXdVh78_EFbWhGpWoNyRxzm0EjuBvcLCiG__bLEwV2iIbUhFvlh6PQZcZm6qjjxDRHQml6V8eLsrCBbIyrXskHKFWWYX-JjJqxGEhBWoKQkNE8JwvT3aH9HoVnRGhQ_kiURp5zjDcZQgzlSy0bw5kP4_Q",
+                    "width": 5184
+                }
+            ],
+            "place_id": "ChIJMwi-HNfAVTcRmeNz7ScHwvk",
+            "plus_code": {
+                "compound_code": "R948+JX Dhaka",
+                "global_code": "7MMGR948+JX"
+            },
+            "rating": 3.7,
+            "reference": "ChIJMwi-HNfAVTcRmeNz7ScHwvk",
+            "scope": "GOOGLE",
+            "types": [
+                "hospital",
+                "health",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 81,
+            "vicinity": "29 & 30, Kha Building, Mirpur Road, Dhaka"
+        }
+    ],
+    "status": "OK"
+}
