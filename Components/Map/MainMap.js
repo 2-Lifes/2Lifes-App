@@ -1,6 +1,6 @@
 import React from 'react';
 
-import MapView, { Marker } from 'react-native-maps';
+import MapView, { Marker, PROVIDER_GOOGLE } from 'react-native-maps';
 
 
 import { StyleSheet, Text, View, Dimensions, Image, TouchableOpacity } from 'react-native';
@@ -142,13 +142,18 @@ export default class MainMap extends React.Component {
                 />
 
                 <MapView style={styles.mapStyle}
-                    showsUserLocation
+                    provider={PROVIDER_GOOGLE}
+
+                    showsUserLocation={true}
                     followUserLocation={true}
                     showsCompass={false}
                     showsMyLocationButton={false}
                     pitchEnabled={false}
 
                     minZoomLevel={14}
+
+
+
 
                     initialRegion={{
                         latitude,
@@ -229,14 +234,14 @@ export default class MainMap extends React.Component {
 
 
                 </MapView>
-            </View>
+            </View >
 
             );
         } else {
 
             return (
 
-                < Loading />
+                < Loading data="Map" />
             )
         }
 
@@ -248,7 +253,8 @@ const styles = StyleSheet.create({
         width: Dimensions.get('window').width,
         height: Dimensions.get('window').height,
         transform: [{ scale: 1.06 }],
-        zIndex: 0
+        zIndex: 0,
+        flex: 1,
     },
     Icon: {
         width: 40,

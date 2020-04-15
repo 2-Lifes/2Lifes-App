@@ -3,7 +3,7 @@ import { View, Image, StyleSheet, Text, Animated } from "react-native"
 
 import LoadingIcon from "../assets/Images/Loading/LoadingIcon.png"
 
-export default function () {
+export default function (props) {
 
     const rotateAnim = useRef(new Animated.Value(0)).current;
 
@@ -32,7 +32,7 @@ export default function () {
                 <Image style={[styles.LoadingBarIcon]} source={LoadingIcon} />
             </Animated.View>
 
-            <Text style={styles.LoadingBarText} >Loading...</Text>
+            <Text style={styles.LoadingBarText} >Loading...{props.data}</Text>
         </View>
     )
 

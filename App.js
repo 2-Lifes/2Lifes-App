@@ -20,16 +20,23 @@ import FireFighterIcon from "./assets/Images/Buttons/FireFighter.png"
 import PoliceStationIcon from "./assets/Images/Buttons/PoliceStation.png"
 
 import Loading from './Components/Loading';
+import AlertButtonBur from "./Components/MainPage/AlertButtonBur"
+
 
 export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       fontsLoaded: false,
-      mapLoaded: false
+      mapLoaded: false,
+      showPopUpBar: false,
+
     }
 
     this.hasMapLoaded = this.hasMapLoaded.bind(this);
+
+    this.PopUpBarHandlerEnabler = this.PopUpBarHandlerEnabler.bind(this);
+    this.PopUpBarHandlerDisabler = this.PopUpBarHandlerDisabler.bind(this);
   }
 
 
@@ -40,16 +47,29 @@ export default class App extends React.Component {
 
   hasMapLoaded() {
     this.setState({ mapLoaded: true });
-    console.log("HELLO FROM HAS MAP LOADED");
   }
+
+  PopUpBarHandlerEnabler() {
+    this.setState({ showPopUpBar: true })
+  }
+
+  PopUpBarHandlerDisabler() {
+    this.setState({ showPopUpBar: false })
+  }
+
 
 
   render() {
     if (this.state.fontsLoaded) {
 
       return (
+
         <View style={styles.container}>
 
+          <AlertButtonBur
+            visibility={this.state.showPopUpBar}
+            PopUpBarDisabler={this.PopUpBarHandlerDisabler}
+          />
 
           {this.state.mapLoaded ? (
             <View style={styles.DepartmentButtonsBody}>
@@ -81,8 +101,8 @@ export default class App extends React.Component {
           {this.state.mapLoaded ? (
 
             < View style={styles.SendAlertButtonBody}>
-              <TouchableOpacity activeOpacity={.75} onPress={() => { alert("hi") }}>
-                <View style={styles.SendAlertButton}>
+              <TouchableOpacity activeOpacity={.75} onPress={() => { this.setState({ showPopUpBar: true }) }}>
+                <View style={styles.SendAlertButton} >
                   <Text
                     style={{
                       fontSize: 25,
@@ -109,7 +129,7 @@ export default class App extends React.Component {
     return (
       <View style={styles.container} >
 
-        <Loading />
+        <Loading data="Fonts" />
       </View>
     )
   }
